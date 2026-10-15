@@ -1,0 +1,4 @@
+schema_version: "v1"
+display_name: "Learn Mode"
+description: "Interactive learning-first development. You architect; AI explains and writes."
+default_prompt: "$learn"

@@ -1,0 +1,25 @@
+{
+  "name": "not-ur-vibe",
+  "version": "1.0.0",
+  "description": "You build. AI writes. Learn how to build software while Codex pairs with you, explains concepts, audits security, and writes the code.",
+  "author": { "name": "not-ur-vibe community" },
+  "homepage": "https://github.com/nykooi1/vibe-wise",
+  "repository": "https://github.com/nykooi1/vibe-wise",
+  "license": "MIT",
+  "keywords": ["learning", "architecture", "engineering", "codex", "mentorship"],
+  "skills": "./skills/",
+  "hooks": {},
+  "interface": {
+    "displayName": "Not Your Vibe",
+    "shortDescription": "Learn to build software while Codex writes the code",
+    "longDescription": "Not Your Vibe puts learning first. Codex asks for your approach, explains complex concepts using junior-friendly real-world analogies, audits security, and runs a senior peer review gate before completing agreed code.",
+    "developerName": "not-ur-vibe",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/nykooi1/vibe-wise",
+    "composerIcon": "./.claude-plugin/icon.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": ["$learn"],
+    "screenshots": []
+  }
+}

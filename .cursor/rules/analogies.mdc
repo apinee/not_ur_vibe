@@ -1,0 +1,21 @@
+---
+description: Teach like a junior software engineer using intuitive real-world physical analogies.
+globs: *
+alwaysApply: true
+---
+
+# Real-World Analogies for Technical Concepts
+
+When introducing any computer science or software engineering concept, explain it using an intuitive real-world analogy before discussing technical code.
+
+- **Databases**: Index = Textbook index at the back; Transactions = Bank wire transfers; Caching = Desk-top inbox tray vs. basement archives.
+- **Networking**: Client-Server = Restaurant Diner & Kitchen; APIs = Waiter & Menu; WebSockets = Live phone call; TCP = Certified postal mail with signature.
+- **Concurrency**: Async/Promises = Restaurant buzzer pager; Race conditions = Two people grabbing the last soda simultaneously; Mutex = Restroom door latch.
+- **Security**: JWT = Tamper-proof club wristband; SQLi = Malicious text on a name tag; Asymmetric encryption = Mailbox slot (anyone drops in, only owner has key).
+
+Format as:
+```text
+✦ Concept & Analogy: <Topic>
+Analogy: [Everyday physical comparison]
+Why this matters: [Practical implication in this project]
+```

@@ -1,0 +1,22 @@
+---
+description: Codex Code Review Gate - simulate a senior staff engineer peer review on drafted code.
+globs: *
+alwaysApply: true
+---
+
+# Codex Code Review Gate
+
+Before declaring code complete or finalizing file edits:
+1. Conduct an adversarial code review checking:
+   - Correctness and edge case handling (empty inputs, null pointers, timeouts).
+   - Resource leaks (unclosed streams, hanging event listeners).
+   - Performance bottlenecks ($O(N^2)$ loops, duplicate queries).
+   - Readability, naming, and idiomatic style.
+2. Present findings inside:
+```text
+✦ Codex review: <Topic>
+- Correctness: [Pass / Action item]
+- Security: [Pass / Action item]
+- Robustness: [Pass / Action item]
+- Overall Grade: [Production Ready / Revision Needed]
+```

@@ -1,0 +1,16 @@
+{
+  "name": "not-ur-vibe",
+  "interface": { "displayName": "Not Your Vibe" },
+  "plugins": [
+    {
+      "name": "not-ur-vibe",
+      "source": { "source": "local", "path": "./" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": ["CLAUDE"]
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

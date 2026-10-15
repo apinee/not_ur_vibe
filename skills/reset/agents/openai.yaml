@@ -1,0 +1,4 @@
+schema_version: "v1"
+display_name: "Reset Mode"
+description: "Safely preview and reset local learning notes."
+default_prompt: "$reset"

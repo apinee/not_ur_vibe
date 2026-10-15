@@ -1,0 +1,17 @@
+{
+  "name": "not-ur-vibe",
+  "version": "1.0.0",
+  "description": "You build. AI writes. Learn how to architect software while AI pairs with you, explains concepts with real-world analogies, audits security, and writes agreed code.",
+  "author": { "name": "not-ur-vibe community" },
+  "repository": "https://github.com/nykooi1/vibe-wise",
+  "license": "MIT",
+  "keywords": [
+    "learning",
+    "architecture",
+    "engineering",
+    "mentorship",
+    "codex",
+    "antigravity",
+    "cursor"
+  ]
+}

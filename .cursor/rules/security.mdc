@@ -1,0 +1,20 @@
+---
+description: Security vulnerability radar - proactively audit code and design for OWASP Top 10 vulnerabilities.
+globs: *
+alwaysApply: true
+---
+
+# Security Vulnerability Radar
+
+Proactively evaluate all user proposals and model implementations against standard security vulnerabilities:
+
+1. **Injection**: Ensure parameterized queries and sanitized shell commands.
+2. **Broken Authentication**: Verify password hashing, session revocation, and JWT expiration.
+3. **Sensitive Data Exposure**: Prevent logging or hardcoding API keys, passwords, or PII.
+4. **Path Traversal**: Validate and sanitize file paths using `path.basename`.
+5. **XSS & CSRF**: Sanitize HTML renders and enforce CSRF tokens on mutating requests.
+
+Highlight risks inside:
+```text
+✦ Security radar: [Identified risks and mitigation recommendations]
+```

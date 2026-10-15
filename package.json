@@ -1,0 +1,35 @@
+{
+  "name": "not-ur-vibe",
+  "version": "1.0.0",
+  "description": "Universal learning-first AI pair programmer for Antigravity, Claude Code, Codex, and Cursor.",
+  "main": "bin/not-ur-vibe.js",
+  "bin": {
+    "not-ur-vibe": "./bin/not-ur-vibe.js"
+  },
+  "scripts": {
+    "doctor": "python3 scripts/doctor.py",
+    "test": "python3 -m unittest discover tests",
+    "export": "python3 scripts/export_notes.py"
+  },
+  "keywords": [
+    "ai",
+    "pair-programming",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "learning",
+    "education",
+    "junior-engineer",
+    "developer-tools"
+  ],
+  "author": "not-ur-vibe community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nykooi1/vibe-wise.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

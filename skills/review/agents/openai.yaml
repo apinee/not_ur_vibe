@@ -1,0 +1,4 @@
+schema_version: "v1"
+display_name: "Codex Code Review"
+description: "Perform a simulated senior staff / Codex peer review on recent code changes."
+default_prompt: "$review"
