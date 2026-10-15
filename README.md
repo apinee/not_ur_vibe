@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nykooi1/vibe-wise/actions"><img src="https://img.shields.io/badge/CI-Passing-success?style=flat-square&logo=githubactions" alt="CI Status" /></a>
+  <a href="https://github.com/apinee/not_ur_vibe/actions"><img src="https://img.shields.io/badge/CI-Passing-success?style=flat-square&logo=githubactions" alt="CI Status" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=flat-square&logo=python&logoColor=white" alt="Python 3.8+" /></a>
   <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node-npx_ready-339933.svg?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node Ready" /></a>
@@ -44,12 +44,12 @@ npx not-ur-vibe init
 
 ### 2. via Curl (macOS / Linux)
 ```sh
-curl -fsSL https://raw.githubusercontent.com/nykooi1/vibe-wise/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/apinee/not_ur_vibe/main/scripts/install.sh | bash
 ```
 
 ### 3. via PowerShell (Windows)
 ```powershell
-irm https://raw.githubusercontent.com/nykooi1/vibe-wise/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/apinee/not_ur_vibe/main/scripts/install.ps1 | iex
 ```
 
 ### 4. via Python (Zero Dependencies)
@@ -73,17 +73,17 @@ python install.py
 - Full `.claude-plugin/` integration with automatic `SessionStart` context restoration.
 - Install via Claude plugin command:
   ```text
-  /plugin marketplace add nykooi1/vibe-wise
-  /plugin install vibe-wise@vibe-wise
+  /plugin marketplace add apinee/not_ur_vibe
+  /plugin install not-ur-vibe@not-ur-vibe
   ```
-- Run `/vibe-wise:learn` or `/learn`.
+- Run `/not-ur-vibe:learn` or `/learn`.
 
 ### OpenAI Codex
 - Plugin manifests and agent definitions under `.codex-plugin/` and `skills/*/agents/openai.yaml`.
 - Run:
   ```sh
-  codex plugin marketplace add nykooi1/vibe-wise
-  codex plugin add vibe-wise@vibe-wise
+  codex plugin marketplace add apinee/not_ur_vibe
+  codex plugin add not-ur-vibe@not-ur-vibe
   ```
 - Start Codex and invoke `$learn`.
 

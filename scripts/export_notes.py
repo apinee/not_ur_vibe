@@ -57,7 +57,7 @@ def export_notes(cwd: Path, output_file: Path) -> Path:
 {progress_text}
 
 ---
-*Built with [Not Your Vibe](https://github.com/nykooi1/vibe-wise) - You build. AI writes.*
+*Built with [Not Your Vibe](https://github.com/apinee/not_ur_vibe) - You build. AI writes.*
 """
 
     output_file.write_text(doc, encoding="utf-8")

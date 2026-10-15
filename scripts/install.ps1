@@ -1,5 +1,5 @@
 # Not Your Vibe: Windows PowerShell One-Line Installer
-# Usage: irm https://raw.githubusercontent.com/nykooi1/vibe-wise/main/scripts/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/apinee/not_ur_vibe/main/scripts/install.ps1 | iex
 
 Write-Host ""
 Write-Host "==========================================================" -ForegroundColor Cyan

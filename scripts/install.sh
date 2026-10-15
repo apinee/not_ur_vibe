@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Not Your Vibe: Unix/macOS One-Line Installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/nykooi1/vibe-wise/main/scripts/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/apinee/not_ur_vibe/main/scripts/install.sh | bash
 
 set -e
 

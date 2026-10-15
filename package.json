@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nykooi1/vibe-wise.git"
+    "url": "https://github.com/apinee/not_ur_vibe.git"
   },
   "engines": {
     "node": ">=16.0.0"
